@@ -113,7 +113,7 @@ Iniciativa para democratizar el turismo, presentada en el Banco de Ideas MINCETU
 
 ### 📊 Inteligencia de Negocios y Bases de Datos
 
-Manejo avanzado de SQL Server y PostgreSQL, con reportes en Power BI sobre más de 1,000 registros.
+Manejo intermedio de SQL Server y PostgreSQL, con reportes en Power BI sobre más de 1,000 registros.
 
 `SQL Server` · `PostgreSQL` · `Power BI`
 
