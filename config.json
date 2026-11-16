@@ -1,0 +1,273 @@
+{
+  "_ayuda": "Edita este archivo y luego ejecuta: python generate.py   (mira CUSTOMIZE.md para todas las opciones)",
+
+  "theme": "dreamy-night",
+  "palette": {},
+  "seed": 7,
+
+  "alias": "Dre_Amy",
+  "real_name": "Amy Peralta Aranda",
+  "tagline": "Sistemas, Datos & Código con Alma Creativa",
+  "banner_label": "hola, soy",
+  "banner_path": "~/portfolio",
+  "banner_line": "Ing. de Sistemas e Informática · 6to ciclo · UNASAM",
+  "location": "Huaraz, Perú",
+
+  "badges_top": [
+    { "label": "Ing. de Sistemas e Informática", "value": "UNASAM", "color": "primary" },
+    { "label": "Desarrollo Web", "value": "UI/UX", "color": "secondary" },
+    { "label": "Bases de Datos", "value": "SQL", "color": "warm" },
+    { "label": "Women in", "value": "STEM", "color": "pink" }
+  ],
+
+  "sections": {
+    "terminal": true,
+    "datos_personales": true,
+    "travesia": true,
+    "reconocimientos": true,
+    "experiencia": true,
+    "proyectos": true,
+    "github": true,
+    "habilidades": true,
+    "certificaciones": true,
+    "contacto": true
+  },
+
+  "prompt": "dre_amy@huaraz:~$",
+  "terminal": [
+    { "cmd": "whoami", "out": ["dre_amy"] },
+    {
+      "cmd": "cat rol.txt",
+      "out": [
+        "Estudiante de Ingeniería de Sistemas e Informática (6to ciclo, UNASAM)",
+        "Desarrollo Web & UI/UX · Bases de Datos · Tecnología Cívica"
+      ]
+    },
+    {
+      "cmd": "cat mision.txt",
+      "out": [
+        "Integrar tecnología, diseño y análisis de datos",
+        "para construir soluciones que generen un impacto real."
+      ]
+    },
+    { "cmd": "ls ./proyectos", "out": ["senda/  level-up/  portafolio/  turismo-accesible/"] }
+  ],
+
+  "bio": [
+    "Me conoces como Dre_Amy. Estudio Ingeniería de Sistemas e Informática en la UNASAM y me apasiona integrar tecnología, diseño y análisis de datos para construir soluciones que generen un impacto real.",
+    "Más allá de las aulas, construyo mi camino en bootcamps, retos de innovación y programas de liderazgo como el Impact Regional Fellowship y STEMos Unidas."
+  ],
+
+  "personal": [
+    ["Nombre", "Amy Peralta Aranda"],
+    ["Alias", "Dre_Amy"],
+    ["Ubicación", "Huaraz, Áncash, Perú"],
+    ["Enfoque", "Desarrollo Web & UI/UX · Bases de Datos (SQL) · Tecnología Cívica"],
+    ["Estudios", "Ingeniería de Sistemas e Informática, UNASAM"],
+    ["Comunidad", "Women in STEM"]
+  ],
+
+  "academic": {
+    "university": "UNASAM",
+    "university_full": "Universidad Nacional Santiago Antúnez de Mayolo",
+    "career": "Ingeniería de Sistemas e Informática",
+    "since": "abr. 2023",
+    "cycle_current": 6,
+    "next_label": "lo que sigue",
+    "bullets": [
+      "**Desarrollo de software:** lenguajes orientados a objetos, web y bases de datos para resolver problemas reales en la región.",
+      "**Bases de datos:** Curso de SQL Server Nivel Intermedio (UNASAM, 2025), SQL Server y PostgreSQL.",
+      "**Web y UI/UX:** React, Vue.js, TypeScript y diseño de interfaces en proyectos como SENDA y Level Up.",
+      "**Innovación y emprendimiento:** bootcamps, hackathons y el Impact Regional Fellowship.",
+      "**Impacto y datos:** Impact Analyst en el Proyecto Quipus (SpinOut / OpenAI)."
+    ]
+  },
+
+  "awards": [
+    {
+      "n": 3,
+      "place": "3er",
+      "title": "Impact Regional Fellowship 2026",
+      "scope": "Nivel nacional",
+      "org": "SpinOut",
+      "date": "sept. 2026",
+      "detail": "Pitch final del proyecto SENDA, representando a la región Áncash."
+    },
+    {
+      "n": 1,
+      "place": "1er",
+      "title": "Bootcamp de Innovación y Emprendimiento 2026",
+      "scope": "UNASAM",
+      "org": "UNASAM",
+      "date": "jul. 2026",
+      "detail": "Level Up UNASAM, junto a mi compañera Estrella: del problema al prototipo y al pitch."
+    },
+    {
+      "n": 2,
+      "place": "2do",
+      "title": "Feria Escolar Nacional EUREKA (Indagación Científica)",
+      "scope": "Etapa provincial",
+      "org": "CONCYTEC / Ministerio de Educación",
+      "date": "nov. 2022",
+      "detail": "Representando a la I.E. Mariscal Toribio de Luzuriaga."
+    }
+  ],
+
+  "experience": [
+    {
+      "program": "Impact Regional Fellowship 2026",
+      "detail": "120 horas de formación en innovación, emprendimiento y tecnologías emergentes",
+      "role": "Fellow, representante de Áncash",
+      "org": "SpinOut",
+      "period": "jul. – sept. 2026"
+    },
+    {
+      "program": "STEMos Unidas, 2da cohorte",
+      "detail": "Programa de desarrollo de habilidades STEM y redes de contacto",
+      "role": "Participante",
+      "org": "Yachaq Warmi – Mujeres en STEM",
+      "period": "ago. – sept. 2026"
+    },
+    {
+      "program": "Laboratorio de Emprendimientos 2026",
+      "detail": "",
+      "role": "Participante",
+      "org": "equipu",
+      "period": "2026"
+    }
+  ],
+
+  "featured_projects": [
+    {
+      "icon": "🐾",
+      "name": "SENDA",
+      "description": "Aplicación web cívica para visualizar riesgos de desastres naturales (sismos e inundaciones) y rutas de evacuación. Usa mapas oficiales de riesgo y tiene a Alertín, una mascotita que le pone cara amable a un tema serio. 3er lugar nacional en el Impact Regional Fellowship 2026.",
+      "stack": ["React", "TypeScript", "FastAPI", "Mapas oficiales de riesgo"],
+      "url": "https://lnkd.in/dRfgNHmN"
+    },
+    {
+      "icon": "🚀",
+      "name": "Level Up UNASAM",
+      "description": "Plataforma que centraliza convocatorias, eventos y beneficios universitarios para reducir la fricción de buscar información dispersa. Incluyó validación del problema, identidad visual (branding y UI) y estrategia de producto. 1er puesto en el Bootcamp de Innovación y Emprendimiento UNASAM 2026.",
+      "stack": ["UX/UI", "Branding", "Prototipado rápido", "Innovación digital"],
+      "url": ""
+    },
+    {
+      "icon": "🌐",
+      "name": "Portafolio Profesional",
+      "description": "Portafolio interactivo en evolución que integra SIGE (Sistema Integral de Gestión Eclesiástica) y dmcookies (dashboard de analítica de privacidad y cookies), junto con un sistema estructurado de habilidades técnicas.",
+      "stack": ["Vue.js", "Firebase", "JavaScript", "Supabase", "React"],
+      "url": ""
+    },
+    {
+      "icon": "♿",
+      "name": "Propuesta de Turismo Accesible",
+      "description": "Iniciativa para democratizar el turismo, presentada en el Banco de Ideas MINCETUR, Hackathon \"Sin Barreras\". Superó múltiples fases y llegó a la penúltima etapa a nivel nacional.",
+      "stack": ["Accesibilidad web", "Diseño UX/UI", "Inteligencia Artificial", "Prototipado rápido"],
+      "url": ""
+    },
+    {
+      "icon": "🧶",
+      "name": "Proyecto Quipus (SpinOut / OpenAI)",
+      "description": "Rol de Impact Analyst: procesamiento de datos y estructuración histórica de la información.",
+      "stack": ["Procesamiento de datos", "Estructuración histórica", "Impact Analysis"],
+      "url": ""
+    },
+    {
+      "icon": "📊",
+      "name": "Inteligencia de Negocios y Bases de Datos",
+      "description": "Manejo avanzado de SQL Server y PostgreSQL, con reportes en Power BI sobre más de 1,000 registros.",
+      "stack": ["SQL Server", "PostgreSQL", "Power BI"],
+      "url": ""
+    }
+  ],
+
+  "github_repos": [
+    {
+      "name": "dmcookies-dashboard",
+      "description": "Dashboard de analítica de privacidad y cookies.",
+      "stack": ["JavaScript"],
+      "url": "https://github.com/amyjimenaperaltaaranda-cyber/dmcookies-dashboard"
+    },
+    {
+      "name": "Iglesia-web-Demo",
+      "description": "Copia de portafolio de un sistema de gestión e inventario para una iglesia, sin bases de datos de producción, historiales ni credenciales, con datos de prueba.",
+      "stack": ["Vue.js", "Firebase"],
+      "url": "https://github.com/amyjimenaperaltaaranda-cyber/Iglesia-web-Demo"
+    },
+    {
+      "name": "CASA-PERALTA",
+      "description": "Inventario y gestión del hogar desde el celular.",
+      "stack": ["TypeScript"],
+      "url": "https://github.com/amyjimenaperaltaaranda-cyber/CASA-PERALTA"
+    },
+    {
+      "name": "ALBUM-AMY",
+      "description": "Réplica pixel perfect de un diseño a partir de una captura de pantalla.",
+      "stack": ["TypeScript", "Vite"],
+      "url": "https://github.com/amyjimenaperaltaaranda-cyber/ALBUM-AMY"
+    }
+  ],
+
+  "skills": {
+    "Backend & APIs": ["Python", "FastAPI", "Programación orientada a objetos"],
+    "Bases de datos & BI": ["SQL", "SQL Server", "PostgreSQL", "Power BI", "Bases de datos relacionales"],
+    "Frontend & Web": ["React", "Vue.js", "TypeScript", "JavaScript", "Vite", "Accesibilidad web"],
+    "Infraestructura & flujo": ["Docker", "Git", "Firebase", "Supabase"],
+    "Diseño & producto": ["Diseño UX/UI", "Figma", "Prototipado rápido", "Branding", "Adobe Lightroom"],
+    "Innovación & emprendimiento": ["Validación de problemas", "Pitch", "Gestión de proyectos", "Innovación digital", "Tecnologías emergentes", "Inteligencia Artificial"],
+    "Datos & impacto": ["Procesamiento de datos", "Estructuración histórica", "Análisis de impacto"],
+    "Liderazgo & comunidad": ["Liderazgo", "Trabajo en equipo", "Networking", "Compromiso ciudadano", "Impacto social", "Sostenibilidad"]
+  },
+
+  "certifications": [
+    {
+      "title": "Impact Regional Fellowship 2026",
+      "org": "SpinOut",
+      "date": "oct. 2026",
+      "url": "https://irf.spinoutworld.org/fellows?codigo=IRF26-ANCASH-001"
+    },
+    {
+      "title": "Réplica de CADE Universitario 2026: \"La Democracia es Clave\"",
+      "org": "IPAE",
+      "date": "oct. 2026",
+      "url": "https://aplicaciones.ipae.pe/certificados/certificados_rep_cuni_huaraz_021126.php?cdg=Ay981"
+    },
+    {
+      "title": "Programa de Talleres Ambientales \"Tunitas Rojas\"",
+      "org": "Tunitas Perú",
+      "date": "oct. 2026",
+      "url": ""
+    },
+    {
+      "title": "Programa STEMos Unidas, 2da cohorte",
+      "org": "Yachaq Warmi – Mujeres en STEM",
+      "date": "sept. 2026",
+      "url": ""
+    },
+    {
+      "title": "Productividad Inteligente: Del caos al orden con Gemini",
+      "org": "Bridges of Equity",
+      "date": "sept. 2026",
+      "url": ""
+    },
+    {
+      "title": "Curso SQL Server Nivel Intermedio",
+      "org": "UNASAM",
+      "date": "oct. 2025",
+      "url": "https://sites.google.com/view/coespeancash/inicio"
+    }
+  ],
+
+  "links": {
+    "github": "https://github.com/amyjimenaperaltaaranda-cyber",
+    "github_label": "amyjimenaperaltaaranda-cyber",
+    "linkedin": "https://www.linkedin.com/in/amy-peralta-aranda-31a766413/",
+    "linkedin_label": "Amy Peralta Aranda",
+    "instagram": "https://www.instagram.com/dre__amy/",
+    "instagram_label": "@dre__amy",
+    "email": "amyjimenaperaltaaranda@gmail.com"
+  },
+
+  "closing": "Sistemas, datos y código, con alma creativa."
+}
