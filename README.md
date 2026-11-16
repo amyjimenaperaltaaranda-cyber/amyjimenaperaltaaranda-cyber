@@ -1,3 +1,8 @@
+<img width="900" height="698" alt="skills" src="https://github.com/user-attachments/assets/ab1ba248-9e69-4209-9e35-9f2c0ace6744" />
+<img width="900" height="28" alt="divider" src="https://github.com/user-attachments/assets/0784bc97-45bc-448e-b569-f84f31cad3b4" />
+<img width="900" height="320" alt="banner" src="https://github.com/user-attachments/assets/0c44aeec-3af3-48ac-be91-cb825a198f76" />
+<img width="900" height="252" alt="awards" src="https://github.com/user-attachments/assets/c7238e71-d782-463a-921d-e45a9fc3e192" />
+<img width="900" height="176" alt="academic" src="https://github.com/user-attachments/assets/c8edeca3-0d50-43ed-9024-1fadd56e6bf8" />
 <div align="center">
 
 # ✦ Hola, soy Dre_Amy ✦
