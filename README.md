@@ -110,11 +110,6 @@ Iniciativa para democratizar el turismo, presentada en el Banco de Ideas MINCETU
 
 `Accesibilidad web` · `Diseño UX/UI` · `Inteligencia Artificial` · `Prototipado rápido`
 
-### 🧶 Proyecto Quipus (SpinOut / OpenAI)
-
-Rol de Impact Analyst: procesamiento de datos y estructuración histórica de la información.
-
-`Procesamiento de datos` · `Estructuración histórica` · `Impact Analysis`
 
 ### 📊 Inteligencia de Negocios y Bases de Datos
 
